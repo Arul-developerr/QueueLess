@@ -113,7 +113,7 @@ function nextToken(counter: number): string {
 let eventCounter = 0;
 
 function makeEvent(
-  state: QueueState,
+  _state: QueueState,
   type: QueueEventType,
   entry: QueueEntry | null,
   message: string,
